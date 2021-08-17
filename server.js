@@ -1,7 +1,7 @@
 const express = require('express');
 const { animals } = require('./data/animals');
 
-const PORT = process.env.PORT || 80;
+const PORT = process.env.PORT || 443;
 
 const app = express();
 
